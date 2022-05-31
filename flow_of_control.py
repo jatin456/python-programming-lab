@@ -1,0 +1,10 @@
+a=int(input("Enter the number"))
+b=int(input("Enter the  second number"))
+try:
+    c=a/b
+    print(c)
+except ZeroDivisionError as e:
+    print("Please Check Denominator ",e)
+    print("Bye")
+
+
